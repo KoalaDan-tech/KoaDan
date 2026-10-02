@@ -1,0 +1,14 @@
+{
+  "name": "koadan-ai-cloudflare",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KoaDan PWA running as a Cloudflare Worker with Workers AI.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
